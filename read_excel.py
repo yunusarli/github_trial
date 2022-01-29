@@ -2,6 +2,7 @@ import pandas as pd
 from io import StringIO
 from xlsx2csv import Xlsx2csv
 import time
+import hashlib
 
 def convert(dataframe):
     data = dataframe.to_dict(orient="records")
