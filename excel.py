@@ -23,4 +23,5 @@ path = 'notlar.xlsx'
 print(read_excel(path))
 print('added for git diff')
 
-    
+def fake():
+    return None
